@@ -1,0 +1,3 @@
+www.nrk.no/nyheter/siste.rss
+www.nrk.no/norge/toppsaker.rss
+www.nrk.no/urix/toppsaker.rss
