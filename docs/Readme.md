@@ -4,12 +4,15 @@ RSS-feed parser for the command line, written in Go
 
 ![the picture](./img_1.png)
 
+
 ## Usage
+
+Specify which RSS-feeds to read with a configuration file (-file), and optionally how far back you want to load items for with the "-history" option
 
 ```go
 go run rssFeeds.go -h
   -file string
-        Path to configurationfile containing RSS-feed URLs
+        Path to configuration file containing RSS-feed URLs
   -history int
         How far back would you like to get feed-items for? default is 0
 
@@ -20,7 +23,8 @@ go run rssFeeds.go -file feeds.txt -history 1
 go build rssFeeds.go 
 
 ```
-## Dependenies
+
+## Dependencies
 Uses these great modules:  
 https://github.com/fatih/color  
 https://github.com/mmcdole/gofeed
